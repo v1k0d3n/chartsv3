@@ -3,10 +3,10 @@ entries:
   calico:
   - apiVersion: v2
     appVersion: v3.8.2
-    created: "2019-09-09T11:25:52.943676-04:00"
+    created: "2019-09-09T11:49:33.348377-04:00"
     dependencies:
     - name: kubernetes-common
-      repository: https://v1k0d3n.github.io/chartsv3/
+      repository: file://../kubernetes-common
       version: 0.1.0
     description: Calico CNI with Policy and Typha Autoscaling
     digest: 9dfcf756fab2bb86e6d4bb197eb0bb2a5c96d75ae6af51930cf43063402adb58
@@ -17,7 +17,20 @@ entries:
     version: v3.8.2-0
   kubernetes-common:
   - apiVersion: v1
-    created: "2019-09-09T11:25:52.945235-04:00"
+    appVersion: v1.14.6
+    created: "2019-09-09T11:49:33.351837-04:00"
+    description: A Common Library for Kubernetes Utilities and Templates
+    digest: 878427646add553c2782a1a58dd19dea4a028f6381523f641959606f64ef7526
+    icon: https://avatars1.githubusercontent.com/u/13629408
+    keywords:
+    - library
+    - kubernetes-common
+    name: kubernetes-common
+    urls:
+    - kubernetes-common-v1.14.6-0.tgz
+    version: v1.14.6-0
+  - apiVersion: v1
+    created: "2019-09-09T11:49:33.350597-04:00"
     description: Kubernetes Self-Hosted Common Library
     digest: 8a50fb334c2aa2e607d5fcb5e71d2d0aca7d35a450d7b2b7d86e30aff3cbb90a
     icon: https://avatars1.githubusercontent.com/u/13629408
@@ -28,4 +41,4 @@ entries:
     urls:
     - kubernetes-common-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-09T11:25:52.939913-04:00"
+generated: "2019-09-09T11:49:33.344074-04:00"
