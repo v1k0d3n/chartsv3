@@ -26,4 +26,5 @@ keywords:
 dependencies:
   - name: kubernetes-common
     version: v1.14.6-0
-    repository: file://../kubernetes-common
+    repository: https://v1k0d3n.github.io/chartsv3/
+    # repository: file://../kubernetes-common
