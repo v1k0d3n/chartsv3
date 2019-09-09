@@ -3,13 +3,13 @@ entries:
   calico:
   - apiVersion: v2
     appVersion: v3.8.2
-    created: "2019-09-09T12:17:30.848003-04:00"
+    created: "2019-09-09T12:48:41.356498-04:00"
     dependencies:
     - name: kubernetes-common
       repository: file://../kubernetes-common
       version: v1.14.6-0
     description: Calico CNI with BGP, Calico Network Policy, and Typha Autoscaling
-    digest: de030fd84891bc2e620db4c4c390c05dc054a1cb2b987bb1e5011a2fdd2c429c
+    digest: 3f08613e354aa10a92021114a69fac79eb7da20659066ae10384f91a6d834eab
     icon: https://avatars1.githubusercontent.com/u/12304728
     keywords:
     - cni
@@ -22,7 +22,7 @@ entries:
   kubernetes-common:
   - apiVersion: v1
     appVersion: v1.14.6
-    created: "2019-09-09T12:17:30.849794-04:00"
+    created: "2019-09-09T12:48:41.357451-04:00"
     description: A Common Library for Kubernetes Utilities and Templates
     digest: 878427646add553c2782a1a58dd19dea4a028f6381523f641959606f64ef7526
     icon: https://avatars1.githubusercontent.com/u/13629408
@@ -33,4 +33,4 @@ entries:
     urls:
     - kubernetes-common-v1.14.6-0.tgz
     version: v1.14.6-0
-generated: "2019-09-09T12:17:30.843069-04:00"
+generated: "2019-09-09T12:48:41.351525-04:00"
