@@ -1,0 +1,5 @@
+# Exclude Helm Charts. There's gh-pages for that:
+*.tgz
+*.lock
+*.tar.gz
+index.yaml
